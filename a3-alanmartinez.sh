@@ -2,10 +2,17 @@
 #
 # Activitat 3 - Usuaris
 #
-echo "--- Introdueix un nom d'usuari ---"
+sudo echo "--- Introdueix un nom d'usuari ---"
 read user
-if grep $user /etc/passwd; then
-  echo "L'usuari $user existeix"
+if grep -w $user /etc/passwd; then
+  echo "L'usuari $user existeix."
 else
-  echo "L'usuari $user no existeix"
+  echo "L'usuari $user no està registrat al sistema."
+  echo "Vol donar-lo d'alta? (s/n)."
+  read crear
+  if [[ $crear = s ]]; then
+    echo "Ha decidit donar-lo d'alta."
+  elif [[ $crear = n ]]; then
+    echo "Ha decidit no donar-lo d'alta."
+  fi
 fi
