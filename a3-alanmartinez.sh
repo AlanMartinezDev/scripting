@@ -12,6 +12,8 @@ else
   read crear
   if [[ $crear = s ]]; then
     echo "Ha decidit donar-lo d'alta."
+    sudo adduser --disabled-password $user
+    echo "Usuari $user registrat."
   elif [[ $crear = n ]]; then
     echo "Ha decidit no donar-lo d'alta."
   fi
