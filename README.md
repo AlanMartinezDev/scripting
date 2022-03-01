@@ -21,6 +21,7 @@ else
     echo "Ha decidit donar-lo d'alta."
     sudo useradd -m $user
     echo "Usuari $user registrat."
+  fi
 ```
 - Si el usuario dice que no, enviar el error a un archivo .log
 ```shell
