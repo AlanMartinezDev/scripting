@@ -1,0 +1,4 @@
+@{id;first_name;last_name;username;password;city;country;phone=67867867;Protactinio;Teneso;tenepro;safd56;Fermia;Gadolinia;656463628}
+@{id;first_name;last_name;username;password;city;country;phone=98787654;Yterbio;Samario;samyter;hdfajh632;Fermia;Gadolinia;987789791}
+@{id;first_name;last_name;username;password;city;country;phone=89898989;Molibdeno;Curio;cumolib;hgsad65243;Fermia;Gadolinia;456665454}
+@{id;first_name;last_name;username;password;city;country;phone=45632145;Damstadio;Hafnio;celauren;gdsd67;Fermia;Gadolinia;432432432}
